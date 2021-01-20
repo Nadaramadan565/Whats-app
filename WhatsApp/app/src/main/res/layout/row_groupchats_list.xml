@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#FFFFFF"
+    app:contentPadding="36dp"
+    android:layout_marginTop="1dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/groubIconIv"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_group_primary"/>
+        <TextView
+            android:id="@+id/groubTitleIv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:text="Group Name"
+            android:layout_toEndOf="@+id/groubIconIv"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            />
+        <TextView
+                android:id="@+id/nameIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/groubIconIv"
+            android:layout_below="@+id/groubTitleIv"
+            android:layout_marginStart="4dp"
+            android:text="Sender Name"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/massageIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#666262"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@id/nameIv"
+            android:layout_below="@+id/groubTitleIv"
+            android:text="The Massage"/>
+        <TextView
+            android:id="@+id/timeIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameIv"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:text="12:12 PM"/>
+
+        </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

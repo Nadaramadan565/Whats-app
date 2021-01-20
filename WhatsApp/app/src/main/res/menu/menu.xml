@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:myapp="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/search_action"
+        android:title="Search"
+        app:showAsAction="always"
+        myapp:showAsAction="always|collapseActionView"
+        myapp:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:icon="@drawable/ic_search_white" />
+
+    <item
+        android:id="@+id/Creating_Groub_Btn"
+        android:title="Create Group"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_creategroup_white">
+    </item>
+
+    <item android:id="@+id/main_all_btn" android:title="All Users"></item>
+
+
+    <item
+        android:id="@+id/main_setting_btn" android:title="Settings">
+
+    </item>
+
+    <item android:id="@+id/main_logout_btn" android:title="@string/logout">
+
+    </item>
+
+
+</menu>

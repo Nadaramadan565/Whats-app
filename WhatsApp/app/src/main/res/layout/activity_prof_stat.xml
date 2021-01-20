@@ -1,0 +1,96 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFF"
+        tools:context=".profStat">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="wrap_content"
+            android:layout_height="305dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="103dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="94dp"
+            android:layout_marginBottom="517dp"
+            android:src="@drawable/defult_profile" />
+
+        <TextView
+            android:id="@+id/settind_name_display"
+            android:layout_width="221dp"
+            android:layout_height="78dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="151dp"
+            android:layout_marginTop="427dp"
+            android:layout_marginEnd="102dp"
+            android:layout_marginBottom="387dp"
+
+            android:foregroundTint="#FFFFFF"
+            android:scrollbarThumbHorizontal="@color/colorAccent"
+            android:text="@string/display_name"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textDirection="inherit"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/settings_states"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="92dp"
+            android:layout_marginBottom="408dp"
+            android:text="@string/hi_there_i_m_using_mini_whatsapp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/change_image_btn"
+            android:layout_width="158dp"
+            android:layout_height="66dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginBottom="188dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="@string/change_image"
+            android:textColor="#FFFF"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textColorLink="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/change_state_btn"
+            android:layout_width="174dp"
+            android:layout_height="68dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="189dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="@string/change_state"
+            android:textColor="#FFFF"
+            android:textColorHint="#FFFF"
+            android:textColorLink="#FFFF" />
+
+    </RelativeLayout>
+
